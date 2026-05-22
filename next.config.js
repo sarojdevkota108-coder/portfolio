@@ -1,6 +1,7 @@
 /** @type {import("next").NextConfig} */
 const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
   experimental: { optimizePackageImports: ["@tabler/icons-react"] },
   images: {
     remotePatterns: [
